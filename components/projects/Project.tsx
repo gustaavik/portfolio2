@@ -1,5 +1,3 @@
-import React from 'react'
-import { Button } from '../ui/button'
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineSelect } from "react-icons/ai";
 import Link from 'next/link';
