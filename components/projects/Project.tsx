@@ -5,7 +5,9 @@ import ProjectElement from '@/types/ProjectElement';
 
 const Project = ({ proj }: { proj: ProjectElement }) => {
     return (
-        <div className='flex flex-col bg-gray-100 p-6 rounded-lg hover:bg-gray-200' style={{ transition: 'all 0.2s ease-in' }}>
+        <div className='flex flex-col border border-gray-200 p-6 rounded-lg'
+        // style={{ transition: 'all 0.2s ease-in' }}
+        >
             <div className='flex flex-row justify-between'>
                 <h1 className='text-xl font-bold'>{proj.title}</h1>
                 <div className='flex flex-row gap-2'>

@@ -4,6 +4,9 @@ import ProjectElement from "@/types/ProjectElement";
 import TimelineElement from "@/types/TimelineElement";
 
 import Image from "next/image";
+import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const timelineItems: TimelineElement[] = [
   {
@@ -129,13 +132,25 @@ export default function Home() {
         <div>
           <h1 className="font-bold text-lg">Mere om mig</h1>
           <p className="text-justify">
-            Jeg er 23 år og er i mit 4. semester på Erhvervs Akademi Aarhus. Jeg har kodet intensivt siden 2016,
-            hvor fokus har været på spiludvikling. Har gennem tiden arbejdet med mange forskellige sprog og teknologier.
+            Jeg er 23 år og er i mit 4. semester på Erhvervsakademi Aarhus. Jeg har kodet intensivt siden 2016,
+            hvor fokus har været på spiludvikling. Har gennem tiden kodet i mange forskellige sprog og brugt diverse frameworks.
             <br />
             <br />
             Idag ligger jeg mest vægt på web- og software udvikling, men er altid åben for nye udfordringer.
           </p>
         </div>
+      </section>
+
+      <section className="flex flex-row gap-8 justify-center md:justify-between w-full md:max-w-sm">
+        <Link href={"https://github.com/gustavhaavik"} target="_blank">
+          <FaGithub size={48} />
+        </Link>
+        <Link href={"https://linkedin.com/gustavhaavik"} target="_blank">
+          <FaLinkedin size={48} />
+        </Link>
+        <Link href={"mailto:gustavhaavik@gmail.com"} target="_blank">
+          <MdEmail size={48} />
+        </Link>
       </section>
 
       {/* Timeline */}
