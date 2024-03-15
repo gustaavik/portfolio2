@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
+import { Url } from "next/dist/shared/lib/router/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -9,6 +10,10 @@ export const metadata: Metadata = {
   title: "Gustav Haavik",
   description: "Portfolio and blog by Gustav Haavik",
 };
+
+const EMAIL = process.env.EMAIL;
+const LINKEDIN = process.env.LINKEDIN;
+const GITHUB = process.env.GITHUB;
 
 export default function RootLayout({
   children,
@@ -27,9 +32,9 @@ export default function RootLayout({
             Gustav Haavik © 2024
           </div>
           <div className="flex gap-4 justify-center w-full text-sm font-semibold">
-            <a href="https://github.com/gustavhaavik" className="hover:underline">Github</a>
-            <a href="https://linkedin.com/gustavhaavik" className="hover:underline">Linkedin</a>
-            <a href="emailto:gustavhaavik@gmail.com" className="hover:underline">Email</a>
+            <a href={GITHUB} className="hover:underline" target="_blank">Github</a>
+            <a href={LINKEDIN} className="hover:underline" target="_blank">Linkedin</a>
+            <a href={`emailto:${EMAIL}`} className="hover:underline" target="_blank">Email</a>
           </div>
         </footer>
       </body>

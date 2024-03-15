@@ -2,6 +2,7 @@ import TimeMachine from "@/components/TimeMachine";
 import Project from "@/components/projects/Project";
 import ProjectElement from "@/types/ProjectElement";
 import TimelineElement from "@/types/TimelineElement";
+import { Url } from "next/dist/shared/lib/router/router";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -106,6 +107,10 @@ const PROJECTS: ProjectElement[] = [
   },
 ]
 
+const EMAIL = process.env.EMAIL as Url;
+const LINKEDIN = process.env.LINKEDIN as Url;
+const GITHUB = process.env.GITHUB as Url;
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-10 md:p-24 gap-24">
@@ -142,13 +147,13 @@ export default function Home() {
       </section>
 
       <section className="flex flex-row gap-8 justify-center md:justify-between w-full md:max-w-sm">
-        <Link href={"https://github.com/gustavhaavik"} target="_blank">
+        <Link href={GITHUB} target="_blank">
           <FaGithub size={48} />
         </Link>
-        <Link href={"https://linkedin.com/gustavhaavik"} target="_blank">
+        <Link href={LINKEDIN} target="_blank">
           <FaLinkedin size={48} />
         </Link>
-        <Link href={"mailto:gustavhaavik@gmail.com"} target="_blank">
+        <Link href={`mailto:${EMAIL}`} target="_blank">
           <MdEmail size={48} />
         </Link>
       </section>
