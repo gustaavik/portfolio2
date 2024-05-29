@@ -127,9 +127,7 @@ export default function Home() {
           <div className="ml-4 flex flex-col text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Gustav Haavik</h1>
             <p className="text-xl font-light text-wrap">
-              Hej, Jeg er Gustav. <span className="font-medium">Datamatiker </span>
-              med mange talenter, alt fra <span className="font-medium">spiludvikling</span> til
-              <span className="font-medium"> cybersecurity</span>.
+              Fullstack web- og software udvikler.
             </p>
           </div>
         </div>
