@@ -2,8 +2,6 @@ import TimeMachine from "@/components/TimeMachine";
 import Project from "@/components/projects/Project";
 import ProjectElement from "@/types/ProjectElement";
 import TimelineElement from "@/types/TimelineElement";
-import { Url } from "next/dist/shared/lib/router/router";
-
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";

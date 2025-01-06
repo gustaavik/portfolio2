@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="dk">
       <body className={inter.className}>
         {children}
         <footer className="flex justify-center flex-col gap-2 py-8 items-center max-w-md mx-auto">

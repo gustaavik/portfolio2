@@ -4,7 +4,6 @@ import {
     Timeline,
 } from 'flowbite-react';
 import TimelineElement from '@/types/TimelineElement';
-import { HiArrowNarrowRight, HiCalendar } from 'react-icons/hi';
 
 
 const TimeMachine = ({ items }: { items: TimelineElement[] }) => {
