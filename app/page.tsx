@@ -11,6 +11,11 @@ import { MdEmail } from "react-icons/md";
 
 const timelineItems: TimelineElement[] = [
   {
+    date: 'August - December 2024',
+    title: 'Dynamicweb Praktik (Århus)',
+    description: 'Har været i praktik hos Dynamicweb, hvor jeg har arbejdet som backend udvikler i integration-teamet. Her kodet vi C#, .NET, MSSQL og Azure devops.',
+  },
+  {
     date: '2022 - nu',
     title: 'Erhvervsakademi Aarhus (Århus)',
     description: 'Går nu på 4. semester på datamatiker uddannelsen. Fokusere på software udvikling, databaser og machine learning.',
@@ -38,6 +43,21 @@ const timelineItems: TimelineElement[] = [
 ];
 
 const PROJECTS: ProjectElement[] = [
+  {
+    title: 'HotelHunger website med Webshop',
+    description: 'Dette er en hjemmeside som jeg lavede for en kunde i 2024. Hjemmesiden er lavet i Next.js og har en webshop.',
+    tags: ['nextjs', 'react', 'typescript', 'tailwindcss', 'git', 'docker', 'commercify'],
+    link: 'https://hotelhunger.nu',
+    year: '2024'
+  },
+  {
+    title: 'Commercify WIP',
+    description: 'Ecommerce backend løsning, som startede som backend til en hjemmeside jeg lavede for et dansk band. Jeg har sidenhen udviklet det til en standalone backend løsning.',
+    tags: ['springboot', 'mysql', 'liquibase', 'docker', 'nextjs', 'shadcn', 'git', 'mobilepay', 'stripe'],
+    link: 'https://commercify.app',
+    github: 'https://github.com/Zenfulcode/Commercify',
+    year: '2024'
+  },
   {
     title: 'Portfolio 2.0',
     description: 'Dette er min nye portfolio hjemmeside, som jeg lavede i 2024.',
@@ -135,7 +155,7 @@ export default function Home() {
         <div>
           <h1 className="font-bold text-lg">Mere om mig</h1>
           <p className="text-justify">
-            Jeg er 23 år og er i mit 4. semester på Erhvervsakademi Aarhus. Jeg har kodet intensivt siden 2016,
+            Jeg er 24 år og er på mit 5. semester på Erhvervsakademi Aarhus. Jeg har kodet intensivt siden 2016,
             hvor fokus har været på spiludvikling. Har gennem tiden kodet i mange forskellige sprog og brugt diverse frameworks.
             <br />
             <br />

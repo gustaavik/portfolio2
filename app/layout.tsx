@@ -26,7 +26,7 @@ export default function RootLayout({
         {children}
         <footer className="flex justify-center flex-col gap-2 py-8 items-center max-w-md mx-auto">
           <div className="text-center font-bold">
-            Gustav Haavik © 2024
+            Gustav Haavik © 2025
           </div>
           <div className="flex gap-4 justify-center w-full text-sm font-semibold">
             <a href={GITHUB} className="hover:underline" target="_blank">Github</a>

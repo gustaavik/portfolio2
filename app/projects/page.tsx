@@ -6,6 +6,21 @@ import React from 'react'
 
 const PROJECTS: ProjectElement[] = [
   {
+    title: 'HotelHunger website med Webshop',
+    description: 'Dette er en hjemmeside som jeg lavede for en kunde i 2024. Hjemmesiden er lavet i Next.js og har en webshop.',
+    tags: ['nextjs', 'react', 'typescript', 'tailwindcss', 'git', 'commercify'],
+    link: 'https://hotelhunger.nu',
+    year: '2024'
+  },
+  {
+    title: 'Commercify WIP',
+    description: 'Ecommerce backend løsning, som startede som backend til en hjemmeside jeg lavede for et dansk band. Jeg har sidenhen udviklet det til en standalone backend løsning.',
+    tags: ['springboot', 'mysql', 'liquibase', 'nextjs', 'shadcn', 'git'],
+    link: 'https://commercify.app',
+    github: 'https://github.com/Zenfulcode/Commercify',
+    year: '2024'
+  },
+  {
     title: 'Portfolio 2.0',
     description: 'Dette er min nye portfolio hjemmeside, som jeg lavede i 2024.',
     tags: ['nextjs', 'react', 'typescript', 'tailwindcss', 'git'],
