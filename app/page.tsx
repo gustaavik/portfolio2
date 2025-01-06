@@ -63,7 +63,7 @@ const PROJECTS: ProjectElement[] = [
     description: 'Dette er min nye portfolio hjemmeside, som jeg lavede i 2024.',
     tags: ['nextjs', 'react', 'typescript', 'tailwindcss', 'git'],
     link: 'https://gustavhaavik-portfolio2.vercel.app/',
-    github: 'https://github.com/GustavHaavik/portfolio2',
+    github: 'https://github.com/gkhaavik/portfolio2',
     year: '2024'
   },
   {
@@ -84,7 +84,7 @@ const PROJECTS: ProjectElement[] = [
     title: 'Medievale Gameengine',
     description: 'Dette er en game engine kodet i java som jeg begyndte på i 2023. Et hobby projekt efter jeg fik lyst til at lave et spil HELT fra bunden.',
     tags: ['java', 'git'],
-    github: 'https://github.com/GustavHaavik/Medievale',
+    github: 'https://github.com/gkhaavik/Medievale',
     year: '2023'
   },
   {
@@ -106,7 +106,7 @@ const PROJECTS: ProjectElement[] = [
     description: 'Skole projekt hvor vi skulle lave en web app som kunne spille yatzy. Jeg var ansvarlig for frontend og sørge for at det hele hang sammen',
     tags: ['html', 'css', 'javascript', 'git'],
     link: 'https://yatzy-projekt.vercel.app/',
-    github: 'https://github.com/GustavHaavik/YatzyProjekt',
+    github: 'https://github.com/gkhaavik/YatzyProjekt',
     year: '2023'
   },
   {
@@ -114,7 +114,7 @@ const PROJECTS: ProjectElement[] = [
     description: 'Det her var min gamle portfolio hjemmeside, som jeg lavede i 2021. Jeg har valgt at lave en ny, da jeg ikke var tilfreds med den gamle.',
     tags: ['html', 'nextjs', 'tailwindcss', 'react', 'git'],
     link: 'https://portfolio-6u5t4v.vercel.app/',
-    github: 'https://github.com/GustavHaavik/portfolio',
+    github: 'https://github.com/gkhaavik/portfolio',
     year: '2023'
   },
   {
@@ -122,14 +122,14 @@ const PROJECTS: ProjectElement[] = [
     description: 'En processing applikation som tager kameraet på computer som input og omdanner billede til ascii karaktere ',
     tags: ['java', 'processing', 'git'],
     link: 'https://www.youtube.com/watch?v=x49Xm72Zeys',
-    github: 'https://github.com/6u5t4v/AsciiMovie',
+    github: 'https://github.com/gkhaavik/AsciiMovie',
     year: '2022'
   },
 ]
 
-const EMAIL = process.env.EMAIL as Url;
-const LINKEDIN = process.env.LINKEDIN as Url;
-const GITHUB = process.env.GITHUB as Url;
+const EMAIL = "gustavhaavik@gmail.com";
+const LINKEDIN = "gustavhaavik";
+const GITHUB = "gkhaavik";
 
 export default function Home() {
   return (
@@ -165,10 +165,10 @@ export default function Home() {
       </section>
 
       <section className="flex flex-row gap-8 justify-center md:justify-between w-full md:max-w-sm">
-        <Link href={GITHUB} target="_blank">
+        <Link href={`https://github.com/${GITHUB}`} target="_blank">
           <FaGithub size={48} />
         </Link>
-        <Link href={LINKEDIN} target="_blank">
+        <Link href={`https://www.linkedin.com/in/${LINKEDIN}`} target="_blank">
           <FaLinkedin size={48} />
         </Link>
         <Link href={`mailto:${EMAIL}`} target="_blank">
