@@ -212,7 +212,7 @@ export default function Home() {
         <div>
           <h1 className="font-bold text-lg">Mere om mig</h1>
           <p className="text-justify">
-            Jeg er 25 år og er uddannet Datamatiker. Jeg har kodet intensivt
+            Jeg er 24 år og er uddannet Datamatiker. Jeg har kodet intensivt
             siden 2016, hvor fokus har været på spiludvikling. Har gennem tiden
             kodet i mange forskellige sprog og brugt diverse frameworks.
             <br />
