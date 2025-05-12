@@ -9,6 +9,12 @@ import { MdEmail } from "react-icons/md";
 
 const timelineItems: TimelineElement[] = [
   {
+    date: "Februar - Nu",
+    title: "IT-Sikkerhedsuddannelse EAAA (Århus)",
+    description:
+      "Overbygning til datamatiker uddannelsen, hvor jeg lærer om IT-sikkerhed og hvordan man kan beskytte sig selv og sine data.",
+  },
+  {
     date: "August - December 2024",
     title: "Dynamicweb Praktik (Århus)",
     description:
@@ -16,7 +22,7 @@ const timelineItems: TimelineElement[] = [
   },
   {
     date: "2022 - nu",
-    title: "Erhvervsakademi Aarhus (Århus)",
+    title: "Datamatiker EAAA (Århus)",
     description:
       "Går nu på 4. semester på datamatiker uddannelsen. Fokusere på software udvikling, databaser og machine learning.",
   },
@@ -47,6 +53,22 @@ const timelineItems: TimelineElement[] = [
 ];
 
 const PROJECTS: ProjectElement[] = [
+  {
+    title: "Commercify GO",
+    description:
+      "Mit commercify projekt genskrevet i go, nu med discounts, dynamic currencies og shipping",
+    tags: ["git", "docker", "golang", "vipps mobilepay"],
+    github: "https://github.com/zenfulcode/commercifygo",
+    year: "2025",
+  },
+  {
+    title: "Vipps mobilepay Golang SdK",
+    description:
+      "Jeg har udviklet en Golang SdK for Vipps mobilepay, som gør det muligt at integrere Vipps betalinger i Golang applikationer.",
+    tags: ["git", "golang", "vipps mobilepay"],
+    github: "https://github.com/gkhaavik/vipps-mobilepay-sdk",
+    year: "2025",
+  },
   {
     title: "HotelHunger website med Webshop",
     description:
@@ -190,7 +212,7 @@ export default function Home() {
         <div>
           <h1 className="font-bold text-lg">Mere om mig</h1>
           <p className="text-justify">
-            Jeg er 24 år og er uddannet Datamatiker. Jeg har kodet intensivt
+            Jeg er 25 år og er uddannet Datamatiker. Jeg har kodet intensivt
             siden 2016, hvor fokus har været på spiludvikling. Har gennem tiden
             kodet i mange forskellige sprog og brugt diverse frameworks.
             <br />
