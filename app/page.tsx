@@ -125,8 +125,8 @@ const PROJECTS: ProjectElement[] = [
     title: "Bror Hjemmeside",
     description:
       "Dette er en hjemmeside som jeg lavede for min bror, som er musikere. Meget unik hjemmeside!",
-    tags: ["nextjs", "react", "typescript", "tailwindcss", "git"],
-    link: "https://jkhaavik.vercel.app/",
+    tags: ["sveltekit", "typescript", "tailwindcss", "git"],
+    link: "https://johansplace.eu/",
     year: "2024",
   },
   {
