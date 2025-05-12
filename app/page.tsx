@@ -57,7 +57,7 @@ const PROJECTS: ProjectElement[] = [
     title: "Commercify GO",
     description:
       "Mit commercify projekt genskrevet i go, nu med discounts, dynamic currencies og shipping",
-    tags: ["git", "docker", "golang", "vipps mobilepay"],
+    tags: ["git", "docker", "golang", "mobilepay", "postgresql"],
     github: "https://github.com/zenfulcode/commercifygo",
     year: "2025",
   },
@@ -65,7 +65,7 @@ const PROJECTS: ProjectElement[] = [
     title: "Vipps mobilepay Golang SdK",
     description:
       "Jeg har udviklet en Golang SdK for Vipps mobilepay, som gør det muligt at integrere Vipps betalinger i Golang applikationer.",
-    tags: ["git", "golang", "vipps mobilepay"],
+    tags: ["git", "golang", "mobilepay"],
     github: "https://github.com/gkhaavik/vipps-mobilepay-sdk",
     year: "2025",
   },
@@ -81,6 +81,7 @@ const PROJECTS: ProjectElement[] = [
       "git",
       "docker",
       "commercify",
+      "mysql",
     ],
     link: "https://hotelhunger.nu",
     year: "2024",
@@ -98,7 +99,6 @@ const PROJECTS: ProjectElement[] = [
       "shadcn",
       "git",
       "mobilepay",
-      "stripe",
     ],
     link: "https://commercify.app",
     github: "https://github.com/Zenfulcode/Commercify",
@@ -122,7 +122,7 @@ const PROJECTS: ProjectElement[] = [
     year: "2024",
   },
   {
-    title: "Bror Hjemmeside",
+    title: "Johansplace",
     description:
       "Dette er en hjemmeside som jeg lavede for min bror, som er musikere. Meget unik hjemmeside!",
     tags: ["sveltekit", "typescript", "tailwindcss", "git"],
