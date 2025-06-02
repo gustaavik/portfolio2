@@ -7,6 +7,10 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+const EMAIL = "gustavhaavik@gmail.com";
+const LINKEDIN = "gustavhaavik";
+const GITHUB = "gustaavik";
+
 const timelineItems: TimelineElement[] = [
   {
     date: "August - December 2024",
@@ -88,7 +92,7 @@ const PROJECTS: ProjectElement[] = [
       "Dette er min nye portfolio hjemmeside, som jeg lavede i 2024.",
     tags: ["nextjs", "react", "typescript", "tailwindcss", "git"],
     link: "https://gustavhaavik-portfolio2.vercel.app/",
-    github: "https://github.com/gkhaavik/portfolio2",
+    github: `https://github.com/${GITHUB}/portfolio2`,
     year: "2024",
   },
   {
@@ -112,7 +116,7 @@ const PROJECTS: ProjectElement[] = [
     description:
       "Dette er en game engine kodet i java som jeg begyndte på i 2023. Et hobby projekt efter jeg fik lyst til at lave et spil HELT fra bunden.",
     tags: ["java", "git"],
-    github: "https://github.com/gkhaavik/Medievale",
+    github: `https://github.com/${GITHUB}/Medievale`,
     year: "2023",
   },
   {
@@ -137,7 +141,7 @@ const PROJECTS: ProjectElement[] = [
       "Skole projekt hvor vi skulle lave en web app som kunne spille yatzy. Jeg var ansvarlig for frontend og sørge for at det hele hang sammen",
     tags: ["html", "css", "javascript", "git"],
     link: "https://yatzy-projekt.vercel.app/",
-    github: "https://github.com/gkhaavik/YatzyProjekt",
+    github: `https://github.com/${GITHUB}/YatzyProject`,
     year: "2023",
   },
   {
@@ -146,7 +150,7 @@ const PROJECTS: ProjectElement[] = [
       "Det her var min gamle portfolio hjemmeside, som jeg lavede i 2021. Jeg har valgt at lave en ny, da jeg ikke var tilfreds med den gamle.",
     tags: ["html", "nextjs", "tailwindcss", "react", "git"],
     link: "https://portfolio-6u5t4v.vercel.app/",
-    github: "https://github.com/gkhaavik/portfolio",
+    github: `https://github.com/${GITHUB}/portfolio`,
     year: "2023",
   },
   {
@@ -155,14 +159,10 @@ const PROJECTS: ProjectElement[] = [
       "En processing applikation som tager kameraet på computer som input og omdanner billede til ascii karaktere ",
     tags: ["java", "processing", "git"],
     link: "https://www.youtube.com/watch?v=x49Xm72Zeys",
-    github: "https://github.com/gkhaavik/AsciiMovie",
+    github: `https://github.com/${GITHUB}/AsciiMovie`,
     year: "2022",
   },
 ];
-
-const EMAIL = "gustavhaavik@gmail.com";
-const LINKEDIN = "gustavhaavik";
-const GITHUB = "gkhaavik";
 
 export default function Home() {
   return (
