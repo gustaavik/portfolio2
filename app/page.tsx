@@ -70,7 +70,7 @@ const PROJECTS: ProjectElement[] = [
     description:
       "Jeg har udviklet en Golang SdK for Vipps mobilepay, som gør det muligt at integrere Vipps betalinger i Golang applikationer.",
     tags: ["git", "golang", "mobilepay"],
-    github: "https://github.com/gkhaavik/vipps-mobilepay-sdk",
+    github: `https://github.com/${GITHUB}/vipps-mobilepay-sdk`,
     year: "2025",
   },
   {
